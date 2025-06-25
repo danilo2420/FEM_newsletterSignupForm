@@ -1,0 +1,37 @@
+@import 'global.css';
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.imgClass {
+    content: url('/assets/images/illustration-sign-up-mobile.svg');
+    width: 100vw;
+}
+
+.content {
+    padding: 40px 24px;
+}
+
+.content__info__title {
+    color: var(--blue800);
+    margin-bottom: 24px;
+}
+
+.content__info__text {
+    color: var(--blue800);
+    margin-bottom: 24px;
+}
+
+.content__info__list {
+    color: var(--blue800);
+}
+
+.content__info__list__item {
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    
+    margin-bottom: 8px;
+}
