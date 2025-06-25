@@ -60,6 +60,9 @@
 
 .content__form__topSection__error {
     color: var(--red);
+
+    /* Initially hidden */
+    visibility: hidden;
 }
 
 .content__form__input {
@@ -70,4 +73,23 @@
     border-radius: 8px;
 
     margin-bottom: 24px;
+}
+
+.content__form__button {
+    all: unset;
+
+    /* This is tp2--bold */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0px;
+
+    border-radius: 8px;
+    background-color: var(--blue800);
+    color: var(--white);
+    padding: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
