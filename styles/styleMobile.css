@@ -1,6 +1,11 @@
 @import 'global.css';
 
+
+/* FIRST COMPONENT */
 .container {
+    /* TODO: take this out */
+    display: none;
+
     height: 100vh;
     width: 100vw;
 }
@@ -75,21 +80,34 @@
     margin-bottom: 24px;
 }
 
-.content__form__button {
-    all: unset;
-
-    /* This is tp2--bold */
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 150%;
-    letter-spacing: 0px;
-
-    border-radius: 8px;
-    background-color: var(--blue800);
-    color: var(--white);
-    padding: 16px;
+/* SECOND COMPONENT */
+.container2 {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 17.5vh 24px 70px 24px;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container2__content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    margin-bottom: 32px;
+}
+
+.container2__content__image {
+    width: 64px;
+    height: 64px;
+}
+
+.container2__content__title {
+    color: var(--blue800);
+}
+
+.container2__content__text {
+    color: var(--blue800);
 }
