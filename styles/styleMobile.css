@@ -5,6 +5,7 @@
     width: 100vw;
 }
 
+/* Image */
 .imgClass {
     content: url('/assets/images/illustration-sign-up-mobile.svg');
     width: 100vw;
@@ -14,6 +15,7 @@
     padding: 40px 24px;
 }
 
+/* Title and subtitle */
 .content__info__title {
     color: var(--blue800);
     margin-bottom: 24px;
@@ -24,6 +26,7 @@
     margin-bottom: 24px;
 }
 
+/* List */
 .content__info__list {
     color: var(--blue800);
 }
@@ -34,4 +37,24 @@
     gap: 16px;
     
     margin-bottom: 8px;
+}
+
+/* Form */
+
+.content__form {
+    border: solid red 2px;
+    margin-top: 40px;
+}
+
+.content__form__topSection {
+    border: solid blue 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+.content__form__topSection__error {
+    color: var(--red);
 }
