@@ -25,7 +25,8 @@
         width: 375px;
     }
 
-    .blueButton:active, .blueButton:focus {
+    .blueButton:enabled .blueButton:active, 
+    .blueButton:enabled .blueButton:focus {
         background: linear-gradient(90deg, var(--gradient0), var(--gradient1));
     }
 

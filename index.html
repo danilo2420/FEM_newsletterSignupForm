@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icon-success.svg">
   <title>Newsletter Signup Form</title>
 
   <link rel="stylesheet" href="styles/styleDesktop.css">
@@ -37,11 +38,11 @@
       <!-- Form -->
       <form id="form1" class="content__form">
         <div class="content__form__topSection tp3">
-          <label for="">Email address</label>
+          <label>Email address</label>
           <div id="errorMessage" class="content__form__topSection__error">Valid email required</div>
         </div>
-        <input class="content__form__input tp2" type="text" placeholder="email@company.com" name="user_input" id="form1_input">
-        <button class="content__form__button blueButton">Subscribe to monthly newsletter</button>
+        <input class="content__form__input tp2" type="text" placeholder="email@company.com" name="user_input" id="form1_input" oninput="handle_oninput()">
+        <button disabled class="content__form__button blueButton blueButton--disabled" id="btnContainer1">Subscribe to monthly newsletter</button>
       </form>
     </div>
   </div>
