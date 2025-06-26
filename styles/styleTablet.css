@@ -1,6 +1,10 @@
 @import url('styleMobile.css');
 
 @media (min-width: 630px) {
+
+    body {
+        background-color: var(--blue700);
+    }
     
     /* Container 1 */
     .container {

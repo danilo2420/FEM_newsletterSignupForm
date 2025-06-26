@@ -10,7 +10,7 @@
 </head>
 <body>
   <!-- FIRST COMPONENT-->
-  <div class="container">
+  <div id="container1" class="container">
     <!-- Image -->
     <img class="imgClass" src="/assets/images/illustration-sign-up-mobile.svg" alt="">
     <div class="content">
@@ -38,22 +38,22 @@
       <form id="form1" class="content__form">
         <div class="content__form__topSection tp3">
           <label for="">Email address</label>
-          <div class="content__form__topSection__error">Error message</div>
+          <div id="errorMessage" class="content__form__topSection__error">Valid email required</div>
         </div>
-        <input class="content__form__input tp2" type="text" placeholder="email@company.com" name="user_input" id="">
+        <input class="content__form__input tp2" type="text" placeholder="email@company.com" name="user_input" id="form1_input">
         <button class="content__form__button blueButton">Subscribe to monthly newsletter</button>
       </form>
     </div>
   </div>
 
   <!-- SECOND COMPONENT-->
-   <div class="container2">
+   <div id="container2" class="container2">
     <div class="container2__content">
       <img class="container2__content__image" src="/assets/images/icon-success.svg" alt="">
       <div class="container2__content__title tp1--mobile">Thanks for subscribing!</div>
       <div class="container2__content__text tp2">A confirmation email has been sent to <span class="tp2--bold">ash@loremcompany.com</span>. Please open it and click the button inside to confirm your subscription.</div>
     </div>
-    <button class="container2__button blueButton">Dismiss message</button>
+    <button id="btnContainer2" class="container2__button blueButton">Dismiss message</button>
    </div>
 </body>
 </html>
