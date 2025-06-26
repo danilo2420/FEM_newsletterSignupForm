@@ -1,0 +1,38 @@
+@import url('styleTablet.css');
+
+@media (min-width: 1000px) {
+
+    body {
+        border: solid red 2px;
+    }
+
+    .container {
+        box-sizing: border-box;
+        width: fit-content;
+
+        padding: 24px 32px;
+
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .imgClass {
+        content: url('/assets/images/illustration-sign-up-desktop.svg');
+        height: 593px;
+        width: unset;
+    }
+
+    .content {
+        padding-right: 64px;
+        width: 375px;
+    }
+
+    .content__info__title {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0px;
+    }
+
+}
