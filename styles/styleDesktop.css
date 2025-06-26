@@ -25,4 +25,8 @@
         width: 375px;
     }
 
+    .blueButton:active {
+        background: linear-gradient(90deg, var(--gradient0), var(--gradient1));
+    }
+
 }
