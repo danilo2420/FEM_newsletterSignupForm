@@ -2,10 +2,7 @@
 
 @media (min-width: 1000px) {
 
-    body {
-        border: solid red 2px;
-    }
-
+    /* Container 1 */
     .container {
         box-sizing: border-box;
         width: fit-content;
@@ -26,13 +23,6 @@
     .content {
         padding-right: 64px;
         width: 375px;
-    }
-
-    .content__info__title {
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 100%;
-        letter-spacing: 0px;
     }
 
 }

@@ -1,10 +1,7 @@
 @import url('styleMobile.css');
 
 @media (min-width: 630px) {
-    body {
-        background-color: var(--blue700);
-    }
-
+    
     /* Container 1 */
     .container {
         padding: 42px 40px;
@@ -19,6 +16,13 @@
 
     .content {
         padding-bottom: 0px;
+    }
+
+    .content__info__title {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0px;
     }
 
     .content__form {
@@ -37,6 +41,14 @@
 
         justify-content: start;
         height: fit-content;
+        max-width: 504px;
+    }
+
+    .container2__content__title {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0px;
     }
 
 }
