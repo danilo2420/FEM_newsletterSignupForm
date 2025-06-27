@@ -15,7 +15,7 @@
     }
 
     .imgClass {
-        content: url('assets/images/illustration-sign-up-desktop.svg');
+        content: url('../assets/images/illustration-sign-up-desktop.svg');
         height: 593px;
         width: unset;
     }

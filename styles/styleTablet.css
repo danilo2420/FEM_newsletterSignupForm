@@ -22,7 +22,7 @@
     }
 
     .imgClass {
-        content: url('assets/images/illustration-sign-up-tablet.svg');
+        content: url('../assets/images/illustration-sign-up-tablet.svg');
         width: 100%;
     }
 
