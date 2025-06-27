@@ -14,7 +14,7 @@
 
 /* Image */
 .imgClass {
-    content: url('/assets/images/illustration-sign-up-mobile.svg');
+    content: url('assets/images/illustration-sign-up-mobile.svg');
     width: 100vw;
 }
 

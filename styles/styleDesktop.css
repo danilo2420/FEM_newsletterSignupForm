@@ -15,7 +15,7 @@
     }
 
     .imgClass {
-        content: url('/assets/images/illustration-sign-up-desktop.svg');
+        content: url('assets/images/illustration-sign-up-desktop.svg');
         height: 593px;
         width: unset;
     }
@@ -29,5 +29,5 @@
     .blueButton:focus {
         background: linear-gradient(90deg, var(--gradient0), var(--gradient1));
     }
-    
+
 }
